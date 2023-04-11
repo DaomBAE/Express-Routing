@@ -13,6 +13,11 @@ router.get('/:id', (req, res) => {
 });
 
 router.post("/", (req, res) => {
+    //데이터 베이스 조회
+    // 5 id 생성 ?
+    // '너는 이제부터 5번 유저다'
+
+
     res.send("트윗 생성");
   });
   
